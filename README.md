@@ -1,6 +1,6 @@
 # commitaai 🚀  
 
-`commitaai` is a powerful npm package designed to automate the creation of commit messages. By leveraging AI, it analyzes the changes you've staged in your project and generates well-structured and meaningful commit messages. With just a simple command, commitaai identifies the differences in your code, then crafts a concise title and description for your commit. This helps you save time, maintain consistency, and adhere to conventional commit practices, making version control more efficient. Ideal for developers looking to simplify their workflow and ensure their commit messages are clear, relevant, and uniform.
+`commitaai` analyzes your staged Git changes and automatically generates concise, conventional commit messages. Stop wasting time figuring out how to summarize your diffs after a long coding session, and keep your version history perfectly organized.
 
 Whether you're a solo developer or part of a team, `commitaai` helps improve your project’s version history by maintaining clean and descriptive commit messages. It’s the perfect tool for developers who want to boost their efficiency and keep their codebase organized. 
  
@@ -12,10 +12,11 @@ Whether you're a solo developer or part of a team, `commitaai` helps improve you
 
 ## ✨ Features  
 
-✅ **AI-generated Commit Messages** – Get clear and structured commit messages based on your Git changes.  
-✅ **Conventional Commit Format** – Generates messages following best practices.  
-✅ **Interactive Workflow** – Review and confirm before committing.  
-✅ **Secure API Key Storage** – Stores your OpenAI API key locally.  
+✅ **Zero-Install Option:** Run instantly via `npx` without cluttering your global packages.
+✅ **Context-Aware:** Analyzes your actual `git diff --staged` to generate accurate descriptions.  
+✅ **Conventional Commits:** Adheres to industry best practices by default.  
+✅ **Interactive Workflow:** Always gives you the final say—review and confirm before committing.  
+✅ **Secure:** Your API key is stored locally and never transmitted anywhere except the OpenAI API.
 
 ---
 
